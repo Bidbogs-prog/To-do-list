@@ -34,6 +34,8 @@ list.addEventListener("click", (e) => {
   if (e.target.classList.contains("delete")) {
     e.target.parentElement.remove();
   }
+
+  e.target.classList.toggle("text-decoration-line-through");
 });
 
 //filtering todos using search bar///
